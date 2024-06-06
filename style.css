@@ -1,0 +1,52 @@
+  *{
+  margin: 0;
+  padding: 0;}
+
+  body{
+  width: 200px;
+  height: 180px;
+  color: white;
+  vertical-align: center;
+  animation-name: nature;
+  animation-duration: 8s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  }
+
+  div{
+  margin: 50px;
+  width: 150px;
+  height: 150px;
+  }
+
+  .son{
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  border-radius: 50%;
+  position: relative;
+  background-color: yellow;
+  border: 1px solid whitesmoke;
+  animation-name: son;
+  animation-duration: 8s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  }
+  @keyframes son{
+  form{
+  background-color: yellow;
+  box-shadow: inherit rgb(214, 146, 19)
+  rgb(255, 208, 0) rgb(255, 255, 255);
+  }
+  to{
+  background-color: whitesmoke;
+  }
+  }
+  @keyframes nature{
+  form{ background:skyblue;
+
+  }
+  to{
+  background: black ;
+  }
+  } 
